@@ -56,19 +56,19 @@ btnAdd.onclick = function (){
 
 function createCar(number, color, type, place){
 
-let html = '<div class="car color-' + color + ' place-lvl' + lvl  + '-' + place + '">'
+let html = '<div class="car color-' + color + ' place-lvl' + lvl  + '-' + place + ' type-' + type + '">'
 + '<div class="front">'
 + '<div class="headlight-left"></div>'
 + '<div class="bumper"></div>'
 + '<div class="headlight-right"></div>'
 + '</div>'
-+ '<div class="bonnet type-' + type + '">'
++ '<div class="bonnet color-' + color + '">'
 + '</div>'
-+ '<div class="roof">'
++ '<div class="roof color-' + color + '">'
 + '<div class="window"></div>'
 + '<p class="numberid">' + number + '</p>'
 + '</div>'
-+ '<div class="boot">'
++ '<div class="boot color-' + color + '">'
 + '<div class="window"></div>'
 + '</div>'
 + '<div class="back">'
