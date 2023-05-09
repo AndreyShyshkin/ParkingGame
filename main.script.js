@@ -95,17 +95,6 @@ carLvl1.onclick = function(event){
         if(approve){
             parentElement.remove();
         }
-    }else if(parentElement.classList.contains("roof" )){
-        let approve = confirm("Вы действительно хотите удалить машину?");
-        if(approve){
-            parentElement.remove();
-        }
-    }
-    else if(parentElement.classList.contains("boot" )){
-        let approve = confirm("Вы действительно хотите удалить машину?");
-        if(approve){
-            parentElement.remove();
-        }
     }
 }
 
@@ -117,17 +106,6 @@ carLvl2.onclick = function(event){
         if(approve){
             parentElement.remove();
         }
-    }else if(parentElement.classList.contains("roof" )){
-        let approve = confirm("Вы действительно хотите удалить машину?");
-        if(approve){
-            parentElement.remove();
-        }
-    }
-    else if(parentElement.classList.contains("boot" )){
-        let approve = confirm("Вы действительно хотите удалить машину?");
-        if(approve){
-            parentElement.remove();
-        }
     }
 }
 
@@ -135,17 +113,6 @@ carLvl3.onclick = function(event){
     let element = event.target;
     let parentElement = element.parentElement;
     if(parentElement.classList.contains("car")){
-        let approve = confirm("Вы действительно хотите удалить машину?");
-        if(approve){
-            parentElement.remove();
-        }
-    }else if(parentElement.classList.contains("roof" )){
-        let approve = confirm("Вы действительно хотите удалить машину?");
-        if(approve){
-            parentElement.remove();
-        }
-    }
-    else if(parentElement.classList.contains("boot" )){
         let approve = confirm("Вы действительно хотите удалить машину?");
         if(approve){
             parentElement.remove();
