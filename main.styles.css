@@ -161,10 +161,11 @@ body{
 .type-1{
     color: rgba(0, 0, 0, 0);
 }
-.type-2{
-    background: rgb(0, 0, 0);
+.type-2 .boot{
+    height: 70px;
+    background: #7e7e7e;
 }
-.type-3{
+.type-3 .roof{
     background: rgb(255, 255, 255);
 }
 
