@@ -17,7 +17,7 @@ let carLvl2 = document.querySelector(".carsLvl2")
 let carLvl3 = document.querySelector(".carsLvl3")
 
 let lvl = 1;
-
+console.dir(cars)
 btnLvl1.onclick = function (){
     btnLvl1.classList.add("isActive")
     btnLvl2.classList.remove("isActive")
@@ -66,7 +66,7 @@ let html = '<div class="car color-' + color + ' place-lvl' + lvl  + '-' + place 
 + '</div>'
 + '<div class="roof">'
 + '<div class="window"></div>'
-+ '<p id="numberid">' + number + '</p>'
++ '<p class="numberid">' + number + '</p>'
 + '</div>'
 + '<div class="boot">'
 + '<div class="window"></div>'
@@ -91,7 +91,18 @@ carLvl1.onclick = function(event){
     let element = event.target;
     let parentElement = element.parentElement;
     if(parentElement.classList.contains("car")){
-        let approve = confirm("Ви дійсно бажаєте видалити машину?");
+        let approve = confirm("Вы действительно хотите удалить машину?");
+        if(approve){
+            parentElement.remove();
+        }
+    }else if(parentElement.classList.contains("roof" )){
+        let approve = confirm("Вы действительно хотите удалить машину?");
+        if(approve){
+            parentElement.remove();
+        }
+    }
+    else if(parentElement.classList.contains("boot" )){
+        let approve = confirm("Вы действительно хотите удалить машину?");
         if(approve){
             parentElement.remove();
         }
@@ -102,7 +113,18 @@ carLvl2.onclick = function(event){
     let element = event.target;
     let parentElement = element.parentElement;
     if(parentElement.classList.contains("car")){
-        let approve = confirm("Ви дійсно бажаєте видалити машину?");
+        let approve = confirm("Вы действительно хотите удалить машину?");
+        if(approve){
+            parentElement.remove();
+        }
+    }else if(parentElement.classList.contains("roof" )){
+        let approve = confirm("Вы действительно хотите удалить машину?");
+        if(approve){
+            parentElement.remove();
+        }
+    }
+    else if(parentElement.classList.contains("boot" )){
+        let approve = confirm("Вы действительно хотите удалить машину?");
         if(approve){
             parentElement.remove();
         }
@@ -113,7 +135,18 @@ carLvl3.onclick = function(event){
     let element = event.target;
     let parentElement = element.parentElement;
     if(parentElement.classList.contains("car")){
-        let approve = confirm("Ви дійсно бажаєте видалити машину?");
+        let approve = confirm("Вы действительно хотите удалить машину?");
+        if(approve){
+            parentElement.remove();
+        }
+    }else if(parentElement.classList.contains("roof" )){
+        let approve = confirm("Вы действительно хотите удалить машину?");
+        if(approve){
+            parentElement.remove();
+        }
+    }
+    else if(parentElement.classList.contains("boot" )){
+        let approve = confirm("Вы действительно хотите удалить машину?");
         if(approve){
             parentElement.remove();
         }
