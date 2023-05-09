@@ -14,6 +14,17 @@ body{
     background: #c300ff;    
 }
 
+.btn{
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
 #blockInform{
     height: 90%;
     width: 30%;
@@ -35,6 +46,10 @@ body{
 .from-control button{
     width: 50px;
     height: 50px;
+}
+#btn-add{
+    width: 150px;
+    border-radius: 60px;
 }
 #blockParking{
     position: relative;
@@ -62,11 +77,15 @@ body{
     height: 150px;
     position: absolute;
 }
-.car p{
-    rotate: 180deg;
+
+.numberid{
     text-align: center;
     margin: 10px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 60px;
 }
+
 .bonnet{
     width: 100%;
     height: 45px;
@@ -86,6 +105,9 @@ body{
 .back{
     display: flex;
 }
+
+
+
 .headlight-left{
     height: 3px;
     width: 15px;
@@ -117,6 +139,8 @@ body{
     width: 100%;
     height: 10px;
 }
+
+
 
 
 .color-blue{
