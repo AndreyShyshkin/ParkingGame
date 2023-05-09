@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+}
+body{
+    display: flex;
+    background: #BA5536;
+}
+
+.isActive{
+    background: #c300ff;    
+}
+
+#blockInform{
+    height: 90%;
+    width: 30%;
+    margin: 50px;
+    border: 5px solid black;
+    border-radius: 60px;
+    background: #693D3D;
+}
+#blockInform h2{
+    font-size: 48px;
+    color: aliceblue;
+    text-align: center;
+    margin: 20px;
+}
+.from-control{
+    text-align: center;
+    margin: 20px;
+}
+.from-control button{
+    width: 50px;
+    height: 50px;
+}
+#blockParking{
+    position: relative;
+}
+#blockParking img{
+    width: 700px;
+    height: 700px;
+    border: 5px solid black;
+    border-radius: 60px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.cars{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.car{
+    width: 70px;
+    height: 150px;
+    position: absolute;
+}
+.car p{
+    rotate: 180deg;
+    text-align: center;
+    margin: 10px;
+}
+.bonnet{
+    width: 100%;
+    height: 45px;
+}
+.roof{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+}
+.boot{
+    width: 100%;
+    height: 25px;
+}
+.front{
+    display: flex;
+}
+.back{
+    display: flex;
+}
+.headlight-left{
+    height: 3px;
+    width: 15px;
+    background: yellow;
+}
+.bumper{
+    width: 100%;
+    height: 3px;
+    background: #888888;
+}
+
+.headlight-right {
+    height: 3px;
+    width: 15px;
+    background: yellow;
+}
+.rear-headlight-left{
+    height: 3px;
+    width: 15px;
+    background: red;
+}
+.rear-headlight-right{
+    height: 3px;
+    width: 15px;
+    background: red;
+}
+.window{
+    background: aqua;
+    width: 100%;
+    height: 10px;
+}
+
+
+.color-blue{
+    background: blue;
+}
+.color-green{
+    background: green;
+}
+.color-yellow{
+    background: yellow;
+}
+.color-red{
+    background: red;
+}
+.color-orange{
+    background: orange;
+}
+.type-1{
+    color: rgba(0, 0, 0, 0);
+}
+.type-2{
+    background: rgb(0, 0, 0);
+}
+.type-3{
+    background: rgb(255, 255, 255);
+}
+
+.place-lvl1-1{
+    top: 0;
+    left: 170px;
+    rotate: 90deg;
+}
+
+.place-lvl1-2{
+    top: 125px;
+    left: 170px;
+    rotate: 90deg;
+}
+.place-lvl1-3{
+    top: 250px;
+    left: 170px;
+    rotate: 90deg;
+}
+.place-lvl1-4{
+    top: 375px;
+    left: 170px;
+    rotate: 90deg;
+}
+.place-lvl1-5{
+    top: 500px;
+    left: 170px;
+    rotate: 90deg;
+}
+.place-lvl1-6{
+    top: 0;
+    left: 450px;
+    rotate: 270deg;
+}
+.place-lvl1-7{
+    top: 125px;
+    left: 450px;
+    rotate: 270deg;
+}
+.place-lvl1-8{
+    top: 250px;
+    left: 450px;
+    rotate: 270deg;
+}
+.place-lvl1-9{
+    top: 375px;
+    left: 450px;
+    rotate: 270deg;
+}
+.place-lvl1-10{
+    top: 500px;
+    left: 450px;
+    rotate: 270deg;
+}
+
+.place-lvl2-1{
+    top: 20px;
+    left: 70px;
+    rotate: 110deg;
+}
+
+.place-lvl2-2{
+    top: 130px;
+    left: 70px;
+    rotate: 110deg;
+}
+.place-lvl2-3{
+    top: 240px;
+    left: 70px;
+    rotate: 110deg;
+}
+.place-lvl2-4{
+    top: 340px;
+    left: 70px;
+    rotate: 110deg;
+}
+.place-lvl2-5{
+    top: 450px;
+    left: 70px;
+    rotate: 110deg;
+}
+.place-lvl2-6{
+    top: -15px;
+    left: 550px;
+    rotate: 270deg;
+}
+.place-lvl2-7{
+    top: 80px;
+    left: 550px;
+    rotate: 270deg;
+}
+.place-lvl2-8{
+    top: 180px;
+    left: 550px;
+    rotate: 270deg;
+}
+.place-lvl2-9{
+    top: 280px;
+    left: 550px;
+    rotate: 270deg;
+}
+.place-lvl2-10{
+    top: 380px;
+    left: 550px;
+    rotate: 270deg;
+}
+
+.place-lvl3-1{
+    top: 60px;
+    left: 170px;
+}
+
+.place-lvl3-2{
+    top: 60px;
+    left: 255px;
+}
+.place-lvl3-3{
+    top: 60px;
+    left: 340px;
+}
+.place-lvl3-4{
+    top: 60px;
+    left: 425px;
+}
+.place-lvl3-5{
+    top: 60px;
+    left: 515px;
+}
+.place-lvl3-6{
+    top: 500px;
+    left: 170px;
+}
+.place-lvl3-7{
+    top: 500px;
+    left: 255px;
+}
+.place-lvl3-8{
+    top: 500px;
+    left: 340px;
+}
+.place-lvl3-9{
+    top: 500px;
+    left: 425px;
+}
+.place-lvl3-10{
+    top: 500px;
+    left: 515px;
+}
+
+.lvl-1{
+    display: block;
+}
+.lvl-2{
+    display: none;
+}
+.lvl-3{
+    display: none;
+}
+
+

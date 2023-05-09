@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parking</title>
+    <link rel="stylesheet" href="main.styles.css">
+</head>
+<body>
+<div id="blockInform">
+    <h2>Додати авто</h2>
+    <hr>
+    <div class="btn-level from-control">
+        <button class="btnLvl1 isActive">1</button>
+        <button class="btnLvl2">2</button>
+        <button class="btnLvl3">3</button>
+    </div>
+
+    <div class="from-control">
+        <input type="text" name="number" placeholder="number">
+    </div>
+    <div class="from-control">
+    <select name="color">
+        <option value="blue">синий</option>
+        <option value="green">зеленый</option>
+        <option value="yellow">желтый</option>
+        <option value="red">красный</option>
+        <option value="orange">оранжевый</option>
+    </select>
+    </div>
+    <div class="from-control">
+    <select name="type">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    </div>
+    <div class="from-control">
+    <select name="place">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    </div>
+    <div class="from-control">
+        <button id="btn-add">Додати авто</button>
+    </div>
+</div>
+<div id="blockParking">
+    <div class="lvl-1">
+        <img src="./images/level1.jpg" alt="parking">
+        <div class="cars carsLvl1"></div>
+    </div>
+    <div class="lvl-2">
+        <img src="./images/level2.jpg" alt="parking2">
+        <div class="cars carsLvl2"></div>
+    </div>
+    <div class="lvl-3">
+        <img src="./images/level3.png" alt="parking3">
+        <div class="cars carsLvl3"></div>
+    </div>
+</div>
+
+<script src="main.script.js"></script>
+</body>
+</html>
