@@ -17,7 +17,7 @@ let carLvl2 = document.querySelector(".carsLvl2")
 let carLvl3 = document.querySelector(".carsLvl3")
 
 let lvl = 1;
-console.dir(cars)
+
 btnLvl1.onclick = function (){
     btnLvl1.classList.add("isActive")
     btnLvl2.classList.remove("isActive")
@@ -91,7 +91,7 @@ carLvl1.onclick = function(event){
     let element = event.target;
     let parentElement = element.parentElement;
     if(parentElement.classList.contains("car")){
-        let approve = confirm("Вы действительно хотите удалить машину?");
+        let approve = confirm("Ви дійсно бажаєте видалити машину?");
         if(approve){
             parentElement.remove();
         }
@@ -102,7 +102,7 @@ carLvl2.onclick = function(event){
     let element = event.target;
     let parentElement = element.parentElement;
     if(parentElement.classList.contains("car")){
-        let approve = confirm("Вы действительно хотите удалить машину?");
+        let approve = confirm("Ви дійсно бажаєте видалити машину?");
         if(approve){
             parentElement.remove();
         }
@@ -113,7 +113,7 @@ carLvl3.onclick = function(event){
     let element = event.target;
     let parentElement = element.parentElement;
     if(parentElement.classList.contains("car")){
-        let approve = confirm("Вы действительно хотите удалить машину?");
+        let approve = confirm("Ви дійсно бажаєте видалити машину?");
         if(approve){
             parentElement.remove();
         }
