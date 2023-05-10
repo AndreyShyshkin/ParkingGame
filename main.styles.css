@@ -158,9 +158,6 @@ body{
 .color-orange{
     background: orange;
 }
-.type-1{
-    color: rgba(0, 0, 0, 0);
-}
 .type-2 .boot{
     height: 70px;
     background: #7e7e7e;
