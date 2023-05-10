@@ -17,7 +17,6 @@ let carLvl2 = document.querySelector(".carsLvl2")
 let carLvl3 = document.querySelector(".carsLvl3")
 
 let lvl = 1;
-
 btnLvl1.onclick = function (){
     btnLvl1.classList.add("isActive")
     btnLvl2.classList.remove("isActive")
@@ -87,7 +86,6 @@ if (lvl == 1) {
     carLvl3.innerHTML += html;
   }
 }
-
 carLvl1.onclick = function(event){
     let element = event.target;
     let parentElement = element.parentElement;
